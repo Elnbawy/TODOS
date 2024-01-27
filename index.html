@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <script src="./src/index.js" defer></script>
+  </head>
+  <body
+    class="pt-14 w-screen min-h-screen bg-gray-200 flex flex-col items-center"
+  >
+    <h1 class="text-5xl font-semibold mb-10">TODO LIST</h1>
+    <!-- Add a task section -->
+    <h2 class="text-2xl">Add a Task!</h2>
+    <div
+      class="h-16 w-4/5 mt-3 mb-14 px-8 bg-white shadow-md rounded-full relative"
+    >
+      <input
+        type="text"
+        class="todo w-3/4 bg-transparent outline-none focus:outline-none h-full text-xl"
+      />
+      <button
+        disabled
+        class="check w-20 absolute text-3xl bg-green-500 right-0 bottom-0 top-0 rounded-r-full active:bg-green-400 duration-500 opacity-0 cursor-default"
+      >
+        &#x2713;
+      </button>
+    </div>
+    <!-- Tasks section -->
+    <h2 class="text-2xl">Tasks List</h2>
+    <div class="tasks w-4/5"></div>
+    <!-- <div
+      class="h-16 w-4/5 my-14 px-4 bg-white shadow-md rounded-xl flex items-center"
+    >
+      <input type="checkbox" class="w-6 h-6" />
+      <p class="text-2xl ml-3">asdfasasdfasfasasasdgfsas</p>
+    </div> -->
+  </body>
+</html>
