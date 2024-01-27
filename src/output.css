@@ -707,8 +707,8 @@ video {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -757,34 +757,9 @@ video {
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:w-2\/4 {
-    width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
-  .md\:w-2\/4 {
-    width: 50%;
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:w-2\/6 {
-    width: 33.333333%;
-  }
-
-  .lg\:w-3\/5 {
-    width: 60%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:w-2\/6 {
-    width: 33.333333%;
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
