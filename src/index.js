@@ -17,7 +17,7 @@ const renderTasks = function (tasks) {
     class="h-16 my-6 px-4 bg-white shadow-md rounded-xl flex items-center"
   >
     <input  type="checkbox" class="w-6 h-6 checkBTN" />
-    <p class="text-2xl ml-3">${task}</p>
+    <p class="text-lg lg:text-xl ml-3">${task}</p>
   </div>
   `;
       tasksDiv.insertAdjacentHTML("beforeend", taskHTML);
